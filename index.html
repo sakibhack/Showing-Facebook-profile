@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Facebook Profile</title>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .fb-link {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 18px;
+            padding: 10px;
+            background-color: #3b5998;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .fb-link:hover {
+            background-color: #2d4373;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Facebook Profile</h1>
+
+    <!-- Facebook Profile Link -->
+    <a href="https://www.facebook.com/YourUsername" class="fb-link" target="_blank">
+        Visit My Facebook Profile
+    </a>
+
+    <hr>
+
+    <!-- Facebook Like Box or Page Plugin -->
+    <div class="fb-page" data-href="https://www.facebook.com/YourUsername" data-tabs="timeline" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/YourUsername" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/YourUsername">Your Facebook Name</a>
+        </blockquote>
+    </div>
+
+</body>
+</html>
